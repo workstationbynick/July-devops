@@ -55,7 +55,7 @@
         </plugin>
 
         <plugin>
-         i <artifactId>maven-compiler-plugin</artifactId>
+          <artifactId>maven-compiler-plugin</artifactId>
           <version>2.3.2</version>
         </plugin>
 
@@ -186,7 +186,7 @@
     <repository>
         <id>central</id>
         <name>ip-172-31-20-183.ec2.internal-releases</name>
-        <url>http://44.208.32.54:8081/artifactory/july-devops-libs-release</url>
+        <url>http://52.91.73.6:8082/artifactory/july-devops-libs-release</url>
     </repository>
 </distributionManagement>
 
