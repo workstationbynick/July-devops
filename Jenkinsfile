@@ -29,7 +29,7 @@ pipeline {
               withSonarQubeEnv('sonar') {
                 
 				dir('webapp'){
-                 sh 'sonar:sonar'
+                 sh "mvn sonar:sonar"
                 }
 				
               }
