@@ -29,7 +29,7 @@ pipeline {
               withSonarQubeEnv('sonar') {
                 
 				dir('webapp'){
-                 sh "mvn sonar:sonar -Dsonar.login=sqp_1ecae3da1283b66b3919fc5a76c2887075b262f8"
+                 sh "mvn -U clean install sonar:sonar"
                 }
 				
               }
