@@ -166,7 +166,7 @@
     <repository>
         <id>central</id>
         <name>ip-172-31-20-183.ec2.internal-releases</name>
-        <url>http://52.91.73.6:8082/artifactory/july-devops-libs-release</url>
+        <url>http://3.86.226.5:8082/artifactory/july-devops-libs-release</url>
     </repository>
 </distributionManagement>
 
