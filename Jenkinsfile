@@ -29,7 +29,7 @@ pipeline {
               withSonarQubeEnv('sonar') {
                 
 				dir('webapp'){
-                 sh 'mvn -U clean install sonar:sonar'
+                 sh 'sonar:sonar'
                 }
 				
               }
